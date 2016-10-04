@@ -5,10 +5,10 @@ var io = require('socket.io')(process.env.PORT || 5000);
 var twitterModule = require('twitter');
 
 var twitter = new twitterModule({
-  consumer_key: 'Gb9Mmk98uXhFB4KgVbY6VhEWf',
-  consumer_secret: 'txTZa0pr25p6WtyFZtvwzcWvkDEvrwqNDYgUwvZWapBuZuuVkm',
-  access_token_key: '630011793-yd5PDsb01v6f5YbZI0myHtM8O2bYTErNOdWNaC4e',
-  access_token_secret: '2ueuny4yCnd25kigxR7ly8DKCZNiStEOW01tDERjdiRHY'
+  consumer_key: '',
+  consumer_secret: '',
+  access_token_key: '',
+  access_token_secret: ''
 });
 
 var games = [];
