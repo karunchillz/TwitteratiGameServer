@@ -1,6 +1,6 @@
 var io = require('socket.io-client');
 
-var socket = io.connect('https://testing-socket-io.herokuapp.com/');
+var socket = io.connect('');
 streamOpened = false;
 
 // Listen for the response from the server 
