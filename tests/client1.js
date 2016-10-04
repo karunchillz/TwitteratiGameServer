@@ -15,7 +15,7 @@ socket.on('connected',function(){
 		console.log(data.msg);
 	});
 
-	socket.on('p', function(data){
+	socket.on('GameRoomReady', function(data){
 		console.log("Ready to start a game. "+data.game.players[0]+ " Vs "+ data.game.players[1]);
 		// Prepare current users' team information
 		var gameInput = {
